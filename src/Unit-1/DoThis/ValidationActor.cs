@@ -30,7 +30,7 @@ public class ValidationActor : UntypedActor
             else
             {
                 // signal that input was bad
-                _consoleWriterActor.Tell(new Messages.ValidationError("Invalid input had odd number of characters."));
+                _consoleWriterActor.Tell(new Messages.ValidationError("Invalid: input had odd number of characters."));
             }
         }
 
