@@ -25,7 +25,7 @@ public class ValidationActor : UntypedActor
             if (valid)
             {
                 // send success to console writer
-                _consoleWriterActor.Tell(new Messages.InputSuccess("Thank y Message was valid."));
+                _consoleWriterActor.Tell(new Messages.InputSuccess("Thank you Message was valid."));
             }
             else
             {
